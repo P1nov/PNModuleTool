@@ -1,0 +1,16 @@
+PODS:
+  - PNModuleTool (0.1.0)
+
+DEPENDENCIES:
+  - PNModuleTool (from `../`)
+
+EXTERNAL SOURCES:
+  PNModuleTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PNModuleTool: ad0b42b282c6cd5bfbff20e365665e77e891b499
+
+PODFILE CHECKSUM: 36b8f9e1f79a21ebf0896f85d1b634f36f5c494b
+
+COCOAPODS: 1.8.4
