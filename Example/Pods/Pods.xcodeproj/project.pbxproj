@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04971460243C5B220027E977 /* PNModuleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497145F243C5B220027E977 /* PNModuleRouter.swift */; };
 		07DD7CFD636D673834B5B4C6E886D912 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		3913E72DF4912E502D9456779959B5DF /* Pods-PNModuleTool_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0999E8E9CFA5102F7DD18A25D06BA32C /* Pods-PNModuleTool_Tests-dummy.m */; };
 		55824F413A42E3F5F13E9E1E41FB4C36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		570FAE46391D4E53D447126244DA52D9 /* Pods-PNModuleTool_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B1817D1291E70B29B294B6F28CE98FA7 /* Pods-PNModuleTool_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6D77DEBA707E4C1F95FBA316F6B9EBD4 /* PNModuleTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF4EBE1F8E23DC5CB7BB96E3949FFEE9 /* PNModuleTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		70AB47B647A5B730B4962A3D73A2F2FC /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5748B39964EF92FD512E78BD691E97 /* ReplaceMe.swift */; };
 		7FB21DFA597964C300BD52473F7F6072 /* Pods-PNModuleTool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87EEE4C0E181C5A24DF47B7DDB7FC058 /* Pods-PNModuleTool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A7398D55F353646C16A3194C1BDE48CC /* Pods-PNModuleTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D17B86F6345C8F8FA57B49437C91B6 /* Pods-PNModuleTool_Example-dummy.m */; };
 		B573ABF5B8E8D6399D8F23ABBE2DE64F /* PNModuleTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 411B85C8597776708DD962231EC4A166 /* PNModuleTool-dummy.m */; };
@@ -37,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0497145F243C5B220027E977 /* PNModuleRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PNModuleRouter.swift; sourceTree = "<group>"; };
 		0999E8E9CFA5102F7DD18A25D06BA32C /* Pods-PNModuleTool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PNModuleTool_Tests-dummy.m"; sourceTree = "<group>"; };
 		0BD70B449D51F2043B57529ACADB3119 /* Pods-PNModuleTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PNModuleTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		148B6EE7D283B980ACF6B6AB1DE45985 /* Pods-PNModuleTool_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PNModuleTool_Tests.modulemap"; sourceTree = "<group>"; };
@@ -48,27 +49,26 @@
 		45FBA39C9A7D09197116DDD9E6614DC6 /* Pods-PNModuleTool_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PNModuleTool_Tests-Info.plist"; sourceTree = "<group>"; };
 		47C7F448F080787CEB5114561C916B50 /* Pods-PNModuleTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PNModuleTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		47DC90705754A394B2FBA5BC5930BF01 /* Pods-PNModuleTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PNModuleTool_Example.release.xcconfig"; sourceTree = "<group>"; };
-		495EDBB9FAC4B91DBB570B64208A6E1F /* PNModuleTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PNModuleTool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		4C9D228C300AB2CF7958CC8F0C47F156 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		5FEB807B0618B4DDA330F31CC0DA4061 /* Pods_PNModuleTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PNModuleTool_Example.framework; path = "Pods-PNModuleTool_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		495EDBB9FAC4B91DBB570B64208A6E1F /* PNModuleTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PNModuleTool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4C9D228C300AB2CF7958CC8F0C47F156 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5FEB807B0618B4DDA330F31CC0DA4061 /* Pods_PNModuleTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PNModuleTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73CD77DEA0C48B1DE2BD38AA09A161BC /* Pods-PNModuleTool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PNModuleTool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		8273D062B6B36048A36D3A4044929582 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8273D062B6B36048A36D3A4044929582 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		833EC456778B0709691EB9E16A140D97 /* PNModuleTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PNModuleTool.modulemap; sourceTree = "<group>"; };
 		87EEE4C0E181C5A24DF47B7DDB7FC058 /* Pods-PNModuleTool_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PNModuleTool_Example-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FC361BF07EF248E330DF316F09F4515 /* Pods-PNModuleTool_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PNModuleTool_Example.modulemap"; sourceTree = "<group>"; };
 		AF4EBE1F8E23DC5CB7BB96E3949FFEE9 /* PNModuleTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PNModuleTool-umbrella.h"; sourceTree = "<group>"; };
 		B1817D1291E70B29B294B6F28CE98FA7 /* Pods-PNModuleTool_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PNModuleTool_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B2D97BF408B87C867DA73E4F1BBFE81C /* Pods-PNModuleTool_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PNModuleTool_Example-Info.plist"; sourceTree = "<group>"; };
 		D1D4A8CD7576F441E4EB44524A38D808 /* PNModuleTool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PNModuleTool-Info.plist"; sourceTree = "<group>"; };
 		D7F90A743899CDA1EA8FFE99B03B9725 /* PNModuleTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PNModuleTool-prefix.pch"; sourceTree = "<group>"; };
-		E2DE7A1244255F0913C6275C83B84CF4 /* Pods_PNModuleTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PNModuleTool_Tests.framework; path = "Pods-PNModuleTool_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2DE7A1244255F0913C6275C83B84CF4 /* Pods_PNModuleTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PNModuleTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E388018C4ECAD8BCF73ECE9DB3DD578A /* Pods-PNModuleTool_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PNModuleTool_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		EB3B9EC033ED52FFBCDC972DF9686430 /* Pods-PNModuleTool_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PNModuleTool_Example-frameworks.sh"; sourceTree = "<group>"; };
 		F27681340BBFA25B2CDEB7178A4094D9 /* Pods-PNModuleTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PNModuleTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FAD62F7CD5A291CDDC06A9C26DD6E67A /* Pods-PNModuleTool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PNModuleTool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FD1B00FDFD83C70E9EC7372FE2DE4138 /* PNModuleTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PNModuleTool.framework; path = PNModuleTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE5748B39964EF92FD512E78BD691E97 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = PNModuleTool/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		FD1B00FDFD83C70E9EC7372FE2DE4138 /* PNModuleTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PNModuleTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +99,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0497145E243C5B170027E977 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				0497145F243C5B220027E977 /* PNModuleRouter.swift */,
+			);
+			name = Router;
+			path = PNModuleTool/Classes/Router;
+			sourceTree = "<group>";
+		};
 		1D2860D3A15789E6078AFF48C0574841 /* Pods-PNModuleTool_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -129,7 +138,7 @@
 		983CF0873CF986DBBD1DA9A4572B2F6A /* PNModuleTool */ = {
 			isa = PBXGroup;
 			children = (
-				FE5748B39964EF92FD512E78BD691E97 /* ReplaceMe.swift */,
+				0497145E243C5B170027E977 /* Router */,
 				3814647A987CAACFB6113575AA3B8993 /* Pod */,
 				AE4ED0347C484E453A909092BBA3F660 /* Support Files */,
 			);
@@ -315,6 +324,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					FFB84EC968F97D1DAAC7BBA88C9D0DA1 = {
+						LastSwiftMigration = 1140;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -373,8 +387,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04971460243C5B220027E977 /* PNModuleRouter.swift in Sources */,
 				B573ABF5B8E8D6399D8F23ABBE2DE64F /* PNModuleTool-dummy.m in Sources */,
-				70AB47B647A5B730B4962A3D73A2F2FC /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +422,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1BE737F02739203BC49A11EFFF0C50D4 /* PNModuleTool.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -623,8 +638,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -698,6 +712,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1BE737F02739203BC49A11EFFF0C50D4 /* PNModuleTool.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -718,6 +733,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
