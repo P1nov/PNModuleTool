@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PNModuleTool_Example' do
+  pod 'PNModuleTool', :path => '../'
+
+  target 'PNModuleTool_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
