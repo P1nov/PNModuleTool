@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PNModuleTool'
-  s.version          = '1.1.2'
+  s.version          = '1.1.3'
   s.summary          = 'A useful router tool for iOS(Swift)'
   s.source           = 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
 
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = "You can use this tool to do route jump your controller, just to implements the protocol named PNRoutable"
+  s.description      = 'You can use this tool to do route jump your controller, just to implements the protocol named PNRoutable'
 
   s.homepage         = 'https://github.com/P1nov/PNModuleTool'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
